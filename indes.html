@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+<div>
+  <!-- NavBar-->
+  <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">The Surfing Project</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Acceuil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Le programme</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Nos prochaines sessions
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Coaching</a></li>
+              <li><a class="dropdown-item" href="#">Peer-Learning</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Palala quel bg là</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Background + Buttons + Présentation -->
+  <div>
+    <div class="bg-image d-flex justify-content-center align-items-center text-white"
+      style="background-image: url('surf.jpg'); height: 100vh;">
+      <div class="px-4 py-5 my-5 text-center ">
+        <h1 class="display-5 fw-bold">Partez à l'aventure</h1>
+        <div>
+          <p class="lead mb-4">Découvrez notre école de surf en peer-learning</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Je m'inscrit à la prochaine session</button>
+            <button type="button" class="btn btn-secondary btn-lg px-4">Je découvre le programme</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Cards-->
+    <div class="row justify-content-center align-items-center">
+      <p class="justify-content-center align-items-center display-6 fw-bold  d-grid">The Surfing Project en 3 points</p>
+    </div>
+    <div class="row">
+      <div class="card container-fluid border-light mb-3" style="width: 18rem;">
+
+        <img src="money-bag.png" class="card-img-top" alt="">
+        <p class="card text-center fw-bold border-light mb-3">Pas chère</p>
+        <div class="card-body">
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum officia voluptatem
+            consequuntur nobis nisi esse aliquid soluta, eos reiciendis magni dolorem laboriosam unde accusantium sed
+            nam aliquam porro aut quidem.</p>
+        </div>
+      </div>
+      <div class="card container-fluid border-light mb-3" style="width: 18rem;">
+        <img src="sofa.png" class="card-img-top" alt="">
+        <p class="card text-center fw-bold border-light mb-3">Relax</p>
+        <div class="card-body">
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa commodi aspernatur porro
+            eaque ipsum aut quia nesciunt maxime. Eligendi ut aliquam sunt sint, quam vero veritatis sit fuga cupiditate
+            corporis!</p>
+        </div>
+      </div>
+      <div class="card container-fluid border-light mb-3" style="width: 18rem;">
+        <img src="group.png" class="card-img-top" alt="">
+        <p class="card text-center fw-bold border-light mb-3">La communauté</p>
+        <div class="card-body">
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, temporibus eaque ipsam
+            dolorem odit magni quam et eum. Fuga officiis similique fugiat velit consequatur sunt commodi ab placeat
+            earum maxime.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Grosses images -->
+  <div class="row justify-content-center align-items-center">
+    <p class="justify-content-center align-items-center display-6 fw-bold  d-grid">Témoignages</p>
+
+    <div class="row d-flex justify-content-center">
+
+      <div class="col-lg-6">
+        <div class="card container-fluid col" style="width: 35rem;">
+          <img src="tim-marshall-sBHLP9iD-Pk-unsplash.jpg" alt="">
+          <p>Surfing's not a sport, it's a way of life tu connais. Pas un hobby. It's a way of regarder cette vague et
+            dire "a que coucou"</p>
+          <p class="text-secondary">Jeff</p>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="card container-fluid col" style="width: 35rem;">
+          <img src=" kevin-schmid-Mta8r0bxhbo-unsplash.jpg" alt="">
+          <p>La "Van Life" en sah c'est stylé mais vas-y l'essence à 2,03€ le litre c'est m'en bouche un coin</p>
+          <p class="text-secondary">Ektu LeDab</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- Partis business -->
+  <div class="pricing-header text-center container mt-10">
+    <p class="display-4 fw-normal">Prix</p>
+  <div>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Semaine d'essai</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">0€</h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Le kiff t'as capté</li>
+              <li>Bali City</li>
+              <li>7 merveilleux jours</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">S'inscrire</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Early Bird</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">15€</h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>+ de Kiff</li>
+              <li>Bali Centre Nautique</li>
+              <li>12 SEMAINES CEST INCR</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">S'inscrire</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">En 3 fois</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">8€<small class="text-muted fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>LE Kiff ULTIME </li>
+              <li>DELAMOR KITU</li>
+              <li>Pendant 12 semaines</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">S'inscrire</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"></script>
+    </body>
+
+</html>
